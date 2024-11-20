@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Dev/eventos/apps/frontend/src/app/not-found.tsx"],"sourcesContent":["import Image from \"next/image\";\r\nimport Link from \"next/link\";\r\nimport imageNotFound from \"../../public/images/robo-not-found.webp\";\r\n\r\nexport default function notFound() {\r\n  return (\r\n    <div\r\n      className=\"\r\n\t\tflex flex-col items-center m-[6rem]\"\r\n    >\r\n      <Image\r\n        src={imageNotFound}\r\n        width={400}\r\n        height={400}\r\n        alt=\"Imagem NotFound\"\r\n      />\r\n      <Link className=\"py-10 hover:text-blue-700\" href={\"/\"}>\r\n        Volte por Aqui\r\n      </Link>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;AACA;AACA;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QACC,WAAU;;0BAGV,8OAAC,6HAAA,CAAA,UAAK;gBACJ,KAAK,sTAAA,CAAA,UAAa;gBAClB,OAAO;gBACP,QAAQ;gBACR,KAAI;;;;;;0BAEN,8OAAC,4HAAA,CAAA,UAAI;gBAAC,WAAU;gBAA4B,MAAM;0BAAK;;;;;;;;;;;;AAK7D"}},
+    {"offset": {"line": 48, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
